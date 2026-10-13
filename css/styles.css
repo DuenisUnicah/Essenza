@@ -1,0 +1,47 @@
+:root {
+  --bulma-primary-h: 330deg;
+  --bulma-primary-s: 55%;
+  --bulma-primary-l: 40%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  padding-top: 3.25rem;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+
+.hero-inicio {
+  background-image: linear-gradient(135deg, #3b1d3f 0%, #8b2f6b 100%);
+}
+
+.fondo-claro {
+  background-color: #faf3f7;
+}
+
+.redondeada {
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.tarjeta {
+  height: 100%;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.tarjeta:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+.precio {
+  color: hsl(330deg, 55%, 40%);
+}

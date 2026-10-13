@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contacto | Essenza</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a class="navbar-item logo" href="index.html">✦ Essenza</a>
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="menuPrincipal">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+    <div id="menuPrincipal" class="navbar-menu">
+      <div class="navbar-end">
+        <a class="navbar-item" href="index.html">Inicio</a>
+        <a class="navbar-item" href="productos.html">Productos</a>
+        <a class="navbar-item is-active" href="contacto.html">Contacto</a>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero is-primary">
+    <div class="hero-body">
+      <div class="container">
+        <p class="title is-2">Contáctanos</p>
+        <p class="subtitle">Haz tu pedido o pregunta lo que quieras</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="columns">
+        <div class="column is-6">
+          <h2 class="title">Escríbenos</h2>
+          <form action="#" method="post">
+            <div class="field">
+              <label class="label" for="nombre">Nombre</label>
+              <div class="control">
+                <input id="nombre" class="input" type="text" placeholder="Tu nombre">
+              </div>
+            </div>
+            <div class="field">
+              <label class="label" for="correo">Correo</label>
+              <div class="control">
+                <input id="correo" class="input" type="email" placeholder="tucorreo@ejemplo.com">
+              </div>
+            </div>
+            <div class="field">
+              <label class="label" for="producto">Producto de interés</label>
+              <div class="control">
+                <div class="select is-fullwidth">
+                  <select id="producto">
+                    <option>Para ella</option>
+                    <option>Para él</option>
+                    <option>Unisex</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="field">
+              <label class="label" for="mensaje">Mensaje</label>
+              <div class="control">
+                <textarea id="mensaje" class="textarea" placeholder="Escribe tu mensaje"></textarea>
+              </div>
+            </div>
+            <div class="field">
+              <div class="control">
+                <button class="button is-primary is-fullwidth" type="submit">Enviar</button>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="column is-6">
+          <h2 class="title">Visítanos</h2>
+          <div class="box">
+            <p class="content"><strong>📍 Dirección:</strong> Colonia Ejemplo, Honduras</p>
+            <p class="content"><strong>📞 Teléfono:</strong> 0000-0000</p>
+            <p class="content"><strong>✉️ Correo:</strong> info@essenza.com</p>
+          </div>
+          <div class="box">
+            <p class="title is-5">Horario</p>
+            <p class="content">Lunes a sábado: 9:00 am – 7:00 pm</p>
+            <p class="content">Domingo: 10:00 am – 4:00 pm</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="content has-text-centered">
+      <p><strong>Essenza</strong> · Tienda de lociones y perfumes · Honduras</p>
+      <p>© 2026 Todos los derechos reservados</p>
+    </div>
+  </footer>
+
+   <script src="js/script.js"></script>
+</body>
+</html>
